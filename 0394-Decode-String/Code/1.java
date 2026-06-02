@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class Solution {
     public String decodeString(String s) {
         StringBuilder res = new StringBuilder();

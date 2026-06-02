@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.HashSet;
+
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         HashMap<Character, String> map = new HashMap<>();

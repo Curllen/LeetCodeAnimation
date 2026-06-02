@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         HashMap[] row = new HashMap[9];
